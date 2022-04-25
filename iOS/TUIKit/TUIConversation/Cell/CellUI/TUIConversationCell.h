@@ -46,7 +46,8 @@ NS_ASSUME_NONNULL_BEGIN
  *  若当前会话有草稿时，概览内容为：“[草稿]XXXXX”，XXXXX为草稿内容。
  */
 @property (nonatomic, strong) UILabel *subTitleLabel;
-
+///显示招聘者职位或求职者期望职位
+@property (nonatomic, strong) UILabel *jobLabel;
 /**
  *  时间标签
  *  负责在会话单元中显示最新消息的接收/发送时间。
